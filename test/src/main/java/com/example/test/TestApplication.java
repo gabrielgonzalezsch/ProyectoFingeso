@@ -1,5 +1,6 @@
 package com.example.test;
 
+import com.example.test.Services.ServicePrincipal;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -9,7 +10,9 @@ public class TestApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(TestApplication.class, args);
-        System.out.println("Chupalo con mayo maxi reqliao jajajajjaj salu2");
+
+
+        ServicePrincipal controladorinicial = new ServicePrincipal();
     }
 }
 
